@@ -82,6 +82,7 @@ html {
   margin-left: 60px;
 }
 .header__menu-list {
+  width: 1033px;
   margin-left: 10px;
   display: flex;
   align-items: center;
@@ -285,7 +286,7 @@ li:hover .header__menu-line {
   z-index: -1;
   position: absolute;
   top: 0;
-  left: 653px;
+  left: 630px;
 }
 
 .faq {
@@ -608,7 +609,7 @@ li:hover .header__menu-line {
 
 .footer {
   background-color: #05173D;
-  width: 100% !important;
+  width: 100%;
 }
 .footer__container {
   display: flex;
@@ -713,6 +714,7 @@ li:hover .header__menu-line {
   letter-spacing: -2%;
   vertical-align: middle;
   color: #FFFFFF;
+  text-decoration: none;
 }
 
 .services__container__block__dropdown[open] .services__container__block__dropdown__btn__arrow {

@@ -89,6 +89,7 @@ html {
         margin-left: 60px;
 
         &-list {
+            width: 1033px;
             margin-left: 10px;
             display: flex;
             align-items: center;
@@ -329,7 +330,7 @@ html {
             z-index: -1;
             position: absolute;
             top: 0;
-            left: 653px;
+            left: 630px;
         }
     }
 }
@@ -480,7 +481,7 @@ html {
         background-color: #F6F9FC;
         border-radius: 20px;
         margin-bottom: 120px;
-        
+
         &--pages {
             margin-top: 120px;
         }
@@ -634,7 +635,6 @@ html {
                         background-color: #2F80ED;
                         border-radius: 100px;
                         border: none;
-
                         font-family: Montserrat;
                         font-weight: 400;
                         font-style: Regular;
@@ -659,7 +659,6 @@ html {
         display: flex;
         align-items: center;
         justify-content: space-between;
-
 
         &__box-left {
 
@@ -707,7 +706,7 @@ html {
 /// /// /// /// END SEVICES /// /// /// ///
 .footer {
     background-color: #05173D;
-    width: 100% !important;
+    width: 100% ;
 
     &__container {
         display: flex;
@@ -754,7 +753,6 @@ html {
                         color: #F6F9FC;
                         margin-bottom: 12px;
                         text-decoration: none;
-
                     }
                 }
 
@@ -826,7 +824,7 @@ html {
                 letter-spacing: -2%;
                 vertical-align: middle;
                 color: #FFFFFF;
-
+                text-decoration: none;
             }
         }
     }
